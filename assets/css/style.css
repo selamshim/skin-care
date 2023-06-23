@@ -50,3 +50,16 @@ h2 {
 .active {
     border-bottom: 1px solid rgb(250, 134, 18);
 }
+/*care image*/
+#care-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+#care-image{
+    height: 600px;
+    width: 100%;
+    background: url('../images/care.jpg') no-repeat center center;
+}
