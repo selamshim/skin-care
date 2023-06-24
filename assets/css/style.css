@@ -9,7 +9,7 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color: rgb(250, 134, 18);
+    color: rgb(250, 88, 18);
 }
 
 /*logo and heading */
@@ -25,6 +25,7 @@ h2 {
 #logo {
     float: left;
     font-size: 250%;
+    margin-left: 30px;
 }
 
 #menu {
@@ -50,16 +51,60 @@ h2 {
 .active {
     border-bottom: 1px solid rgb(250, 134, 18);
 }
-/*care image*/
-#care-outer{
+
+/*care image and front-text */
+
+#care-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
-    
+
+    position: relative;
 }
 
-#care-image{
+#front-text,
+#front-text h2,
+#front-text h1 {
+    color: #fff;
+}
+
+#care-image {
     height: 600px;
     width: 100%;
-    background: url('../images/care.jpg') no-repeat center center;
+    background: url('../images/care-edit.jpg') no-repeat center center;
+    /* animates zoom effect on loading page */
+    animation-name: care-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for care image */
+@keyframes care-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+#front-text {
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 400px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(241, 178, 107, 0.7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
 }
