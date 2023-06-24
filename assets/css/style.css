@@ -71,7 +71,7 @@ h2 {
 #care-image {
     height: 600px;
     width: 100%;
-    background: url('../images/care-edit.jpg') no-repeat center center;
+    background: url('../images/care.jpg') no-repeat center center;
     /* animates zoom effect on loading page */
     animation-name: care-zoom;
     animation-duration: 5s;
@@ -107,4 +107,22 @@ h2 {
     right: 150px;
 
     position: absolute;
+    
 }
+
+#skin-type {
+    height: 600px;
+}
+
+#skin-type-left {
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+    background-color: red;
+}
+ #skin-images-right {
+    padding-top: 30px;
+    width: 50%;
+    float: right;
+    background-color: green;
+ }
