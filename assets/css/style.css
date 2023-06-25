@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+*/
 
 * {
     padding: 0;
@@ -107,8 +108,10 @@ h2 {
     right: 150px;
 
     position: absolute;
-    
+
 }
+
+/*skin typs leftt and right side */
 
 #skin-type {
     height: 600px;
@@ -119,10 +122,34 @@ h2 {
     width: 50%;
     float: left;
     background-color: red;
+
 }
- #skin-images-right {
+
+#skin-type-right {
     padding-top: 30px;
     width: 50%;
     float: right;
     background-color: green;
- }
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-skin {
+    width: 95%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 40px;
+}
+
+.left-skin h2 {
+    text-align: left;
+}
+
+.left-skin p {
+    text-align: left;
+}
