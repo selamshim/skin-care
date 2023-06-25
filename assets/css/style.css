@@ -113,36 +113,23 @@ h2 {
 
 /*skin typs leftt and right side */
 
-#your-type{
-    font-size:300;
-    margin: 30px;
-    text-align: left;
-}
 
 #skin-type {
     height: 600px;
+    
 }
 
 #skin-type-right {
    padding-top: 30px;
     width: 50%;
     float: right;
-    /*padding-top: 30px;
-    width: 50%;
-    float: right;
-    width: 300px;
-    height: 300px;
-    padding: 30px;*/
- 
-   /*background: url('../images/cream1.jpg') no-repeat center center;
-*/
+    
 }
 
 #skin-type-left{
     
     width: 50%;
     height: 600;
-    margin: auto;
     float: left;
 }
 
@@ -150,6 +137,11 @@ hr {
     border-top: 1px solid #c4b2b8;
     width: 100%;
     margin: 5px 0;
+}
+#your-type{
+    font-size:300;
+    margin: 30px;
+    text-align: left;
 }
 
 .right-skin {
@@ -180,9 +172,18 @@ hr {
     border-radius: 50%;
     margin: 0 auto;
 }
-#circular-image{
+#face-image{
     background: url('../images/woman.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
    
+}
+
+#routin{
+    background-image: url('../images/routine.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
 }
