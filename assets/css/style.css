@@ -96,16 +96,16 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
 
-    width: 400px;
-    height: 200px;
+    width: 600px;
+    height: 100px;
 
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(241, 178, 107, 0.7);
+    background-color: rgba(175, 126, 130, 0.7);
 
     bottom: 30px;
-    right: 150px;
+    right: 200px;
 
     position: absolute;
 
@@ -113,32 +113,37 @@ h2 {
 
 /*skin typs leftt and right side */
 
+#your-type{
+    font-size:300;
+    margin: 30px;
+    text-align: left;
+}
+
 #skin-type {
     height: 600px;
 }
 
-#skin-type-left {
-    padding-top: 30px;
-    width: 50%;
-    float: left;
-    background-color: red;
-
-}
-
 #skin-type-right {
     padding-top: 30px;
-    width: 50%;
+    width: 40%;
     float: right;
-    background-color: green;
+}
+
+#skin-type-left{
+    
+    width: 60%;
+    height: 600;
+    margin: auto;
+    float: left;
 }
 
 hr {
-    border-top: 1px solid #3a3a3a;
+    border-top: 1px solid #c4b2b8;
     width: 100%;
     margin: 5px 0;
 }
 
-.left-skin {
+.right-skin {
     width: 95%;
     float: right;
     line-height: 20px;
@@ -146,10 +151,29 @@ hr {
     margin-bottom: 40px;
 }
 
-.left-skin h2 {
+.right-skin h2 {
     text-align: left;
 }
 
-.left-skin p {
+.right-skin p {
     text-align: left;
+}
+
+/*left side image*/
+
+#image-container{
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+#circular-image{
+    background: url('../images/skin-type.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+   
 }
