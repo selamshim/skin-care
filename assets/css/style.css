@@ -201,3 +201,21 @@ hr {
 #routin  h2 {
     color: #fafafa;
 }
+footer {
+    height: 150px;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media > li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color:  rgba(31, 75, 22, 0.674);
+}
