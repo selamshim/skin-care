@@ -31,9 +31,36 @@
             </ul>
         </nav>
     </header>
+    <section class="form">
+        <form class="signup-form">
+            <h2>signed up and have a glowwing skin</h2>
+            <label for="firstName">First Name</label>
+            <input id="firstNameame" class="text-input" name="first_name" type="text" required>
+            
+            <label for="lastName">Last Name</label>
+            <input id="lastName" class="text-input" name="last_name" type="text" required>
+            
+            <label for="email">Email Address</label>
+            <input type="email" class="text-input" id="email" name="email_address" required>
+            
+            <label for="password">Enter Password</label>
+            <input type="password" class="text-input" id="password" name="Password" required>
+            
+            <label for="password-repeat">Repeat Password</label>
+            <input type="password" class="text-input" id="password-repeat" name="Password" required>
 
-  
+            <label for="choseType">Choose Your Skin Type:</label>
 
+               <select name="TypesOfSkin" id="choseType">
+                  <option value="oily">Oily</option>
+                  <option value="dry">Dry</option>
+                  <option value="combination">Combination</option>
+                  <option value="acneProne">Acne prone</option>
+               </select>
+        <input class="signUp" type="submit" value="Sign Up">
+        </form>
+    </section>
+    
     <footer>
         <ul class="social-media">
 
@@ -54,10 +81,7 @@
                 aria-label="Visit our Youtube (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
             </li>
 
-            <li>
-                <a href="https://twitter.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
-            </li>
+           
         </ul>
     </footer>
     <!--font awesome script-->
