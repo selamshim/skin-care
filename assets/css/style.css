@@ -276,3 +276,34 @@ footer {
     background-color: #fafafa;
     color: #f16c6b;
 }
+/* product page*/
+
+#product-types-upper{
+    clear: both;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #fff;
+  padding: 1px;
+  margin: 10px auto;
+}
+
+#product-types-lower{
+    clear: both;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #fff;
+  padding: 1px;
+  margin: 10px auto;
+}
+
+.products-img{
+    max-width: 30%;
+  max-height:30%;
+}
+
+.product-text{
+    font-size: 20px;
+  padding-left: 20px;
+}
