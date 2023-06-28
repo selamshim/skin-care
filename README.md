@@ -29,16 +29,17 @@ the website needs to accept the user detail and then suggest product
 
 •Testing
 °the project is tested on validator testing and also chrome DevTools
-
 •Validator Testing
 •HTML
 °No errors were returned when passing through the official W3C validator
 •CSS
 °No errors were found when passing through the official (Jigsaw) validator
 
-    •Deployment
-     °most of the time i was using my local Vs code editor and i was pushing code whenever i am done with one section. The site is deployed on github.
-     °the live link is- https://selamshim.github.io/skin-care/
+°Unfixed Bugs i was having problem to get a nice looking image for my home page so i bought from istock but ther resolution was high which affect the performance of the page. when i minimize the size of the image it wasnt looking that much good.
+
+•Deployment
+ °most of the time i was using my local Vs code editor and i was pushing code whenever i am done with one section. The site is deployed on github.
+ °the live link is- https://selamshim.github.io/skin-care/
 
 •Credits
 °I have got help from tutor support and Love Running Project. I was able to have a good imagination and concept on how to design my sign up page and front home page image.

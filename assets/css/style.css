@@ -74,7 +74,7 @@ h2 {
 #care-image {
     height: 600px;
     width: 100%;
-    background: url('../images/carem.jpg') no-repeat center center;
+    background: url('../images/care.jpg') no-repeat center center;
     /* zoom effect animation */
     animation-name: care-zoom;
     animation-duration: 5s;
