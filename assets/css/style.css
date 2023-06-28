@@ -275,16 +275,11 @@ footer {
   margin: 10px auto;
 }
 
-.products-img{
-    max-width: 30%;
-  max-height:30%;
-}
-
 .product-text{
     font-size: 20px;
   padding-left: 20px;
 }
-
+ß
 .product-text > h3{
     color: rgb(24, 91, 78);
 }
