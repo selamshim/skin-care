@@ -74,14 +74,12 @@ h2 {
 #care-image {
     height: 600px;
     width: 100%;
-    background: url('../images/care.jpg') no-repeat center center;
-    /* animates zoom effect on loading page */
+    background: url('../images/carem.jpg') no-repeat center center;
+    /* zoom effect animation */
     animation-name: care-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
-
-/* creates the level of zoom for care image */
 @keyframes care-zoom {
     from {
         transform: scale(1);
@@ -115,7 +113,6 @@ h2 {
 
 /*skin typs leftt and right side */
 
-
 #skin-type {
     height: 600px;
     padding: 20px;
@@ -138,7 +135,6 @@ h2 {
     height: 600px;
 }
 
-
 hr {
     border-top: 1px solid #c4b2b8;
     width: 100%;
@@ -160,19 +156,6 @@ hr {
 .right-skin p {
     text-align: left;
 }
-
-/*left side image*/
-/*
-#image-container{
-    width: 500px;
-    height: 500px;
-    padding: 20px;
-    border-style: solid;
-    border-color: white;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-} */
 
 #routin{
     background-image: url('../images/routine.jpg');
