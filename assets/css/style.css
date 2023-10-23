@@ -56,7 +56,6 @@ h2 {
 }
 
 /*care image and front-text */
-
 #care-outer {
     height: 600px;
     width: 100%;
@@ -197,6 +196,25 @@ footer {
     padding: 5%;
     color:  rgba(31, 75, 22, 0.674);
 }
+/* 404 page specific styling */
+#page-container-404 {
+    height: 90vh;
+    background-color: #EDF3FD;
+    position: relative;
+}
+
+#container-404-message {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    text-align: center;
+    color: #13450C;
+}
+
+#container-404-message > i {
+    font-size: 8rem;
+}
+
 
 /* signup form*/
 .form {
