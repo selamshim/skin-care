@@ -230,7 +230,7 @@ footer {
     color: #fff;
     background-color: rgba(45, 108, 84, 0.6);
     max-width: 400px;
-    position: absolute;
+    position:absolute;
     left: 20%;
     padding: 30px;
 }
@@ -256,7 +256,6 @@ footer {
 
 .signUp {
     margin-top: 30px;
-    margin-left: 150px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
     text-align: center;
