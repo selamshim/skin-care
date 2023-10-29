@@ -95,7 +95,7 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
 
-    width: 600px;
+    width: 500px;
     height: 100px;
 
     padding-top: 40px;
@@ -309,4 +309,26 @@ footer {
 
 .product-text > h3{
     color: rgb(24, 91, 78);
+}
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #front-text {
+        left: 0;
+    }
+
+    #care-outer {
+        width: 90%;
+        height: 900px;
+        margin: 0 auto;
+    }
 }
