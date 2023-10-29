@@ -1,9 +1,37 @@
-#Skin Care Website
+# Skin Care Website
+(Developer: Selam Yigezu)
 This website is aimed to target all people above the age of 12. It helps users to have glowing skin. Many people have problems with their facial skin just because they don't understand and know the skin type they have and the right product they have to use. It describes the types of skin, the skin care routine, and life styles.
-<img src="assets/images/res.jpg" alt="screenshoot">
+ ![Mockup image](assets/images/respoimg.png)
+ [Live Website](https://selamshim.github.io/skin-care/)
 
-#features
-In this website users will get to know their types of skin and information about different products then they sign up choosing the type of skin they have. After they are signed up the website will suggest the right types of skin care products and routines they need to follow.
+## Business Goals
+
+### User Goals
+- To care for skin
+- To get best skin products and their link
+- to know type of skin
+
+### Website Owner Goals
+- Deliver easy-to-use skincare website 
+- Provide information about skin
+- To suggest best products
+
+### Target Audience
+- People with all skin type
+- everry one who who wants to have a glowing skin
+
+### User Expectations
+- The right information about skin
+- the original link of best skin care products
+- Appealing design
+- Accessibility
+
+# Features Left to Implement
+- In this website users will get to know their types of skin and information about different products then they sign up choosing the type of skin they have. After they are signed up the website will suggest the right types of skin care products and routines they need to follow.
+# Testing and validation
+## Html Validation
+
+
 
 •Navigation Bar
 
